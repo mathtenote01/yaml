@@ -23,6 +23,6 @@ spec:
         name: data-vol
         readOnly: false
         
-    volumes:
-    - name: data-vol
-      emptyDir: {}
+  volumes:
+  - name: data-vol
+    emptyDir: {}
